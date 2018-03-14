@@ -1,6 +1,8 @@
 # BoundingBox
 Program to put bounding boxes around objects in images, save as CSV and export as TFRecord (for TensorFlow)
 
+<div align="center"><img width="95%" src="example.JPG"/></div>
+
 This was made with Python 3.6.3
 
 ## Installation
