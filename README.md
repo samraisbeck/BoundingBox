@@ -5,13 +5,15 @@ This was made with Python 3.6.3
 
 ## Installation
 
-Clone this repository (or download the zip), make sure Python 3 is properly installed (the python.exe and /Scripts locations are specified in the environment variable PATH), and do `pip install -r requirements.txt`. Or install each package manually:
+Clone this repository (or download the zip), make sure Python 3 is properly installed (the python.exe and /Scripts locations are specified in the environment variable PATH), open a command prompt and do `pip install -r requirements.txt`. Or install each package manually:
 
 `pip install numpy`
 
 `pip install PyQt5`
 
 `pip install matplotlib`
+
+If `pip` doesn't work correctly, it is likely because you did not add your ..PythonXX/Scripts directory to your PATH (where XX is the version number, so Python36 for Python 3.6.x).
 
 ## Usage
 
@@ -27,7 +29,7 @@ Hitting Enter scrolls forward through images, Backspace scrolls backward (or you
 
 If you wish to save, hit Save Info, and name the file. This will save a `.csv` file. You can come back to it later by loading it in.
 
-Remember, the way you bound the areas of interest must be consistent throughout the dataset! This is important when you begin to train a model, so it can recognize identifying features. 
+Remember, the way you bound the areas of interest must be consistent throughout the dataset! This is important when you begin to train a model, so it can recognize identifying features.
 
 #### To Do
 
